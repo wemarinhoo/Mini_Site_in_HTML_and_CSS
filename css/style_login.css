@@ -9,7 +9,6 @@
 
 body{
   background-image: url(/imgs/background.webp);
-  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -96,7 +95,7 @@ body{
   font-weight: 300;
   font-size: 0.85rem;
   margin-bottom: 2rem;
-  transition: all .4s ease-in-out;
+  transition: all .3s ease-in-out;
   transform-origin: left;
   background-color: #fff;
 }
@@ -151,7 +150,7 @@ body{
   font-weight: 600;
   margin-bottom: 0.8rem;
   margin-top: 0.8rem;
-  transition: all .4s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .form section.button a:hover{
@@ -175,7 +174,7 @@ body{
   background-color: #fff;
   border-radius: 50%;
   cursor: pointer;
-  transition: all .4s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .form section.social-media .icon-social-media img{
@@ -184,5 +183,5 @@ body{
 }
 
 .form section.social-media .icon-social-media:hover{
-  background-color: rgba(0, 0, 0, .1);
+  transform: scale(1.1);
 }
