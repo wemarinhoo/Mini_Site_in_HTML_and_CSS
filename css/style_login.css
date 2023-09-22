@@ -15,6 +15,7 @@ body{
   justify-content: center;
   flex-direction: column;
   width: 100vw;
+  height: 100vh;
 }
 
 .button-register{
@@ -22,8 +23,10 @@ body{
   align-items: flex-start;
   justify-content: flex-end;
   width: 100vw;
+  height: 0.5rem;
   margin-right: 20px;
-  margin-top: 10px;
+  position: absolute;
+  top: 0.5rem;
 }
 .button-register a{
   text-decoration: none;

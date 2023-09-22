@@ -130,6 +130,7 @@ section.text-container{
 section.text-container h1{
   font-size: 56px;
   text-align: justify;
+  white-space: nowrap;
 }
 
 section.text-container p{
@@ -137,4 +138,24 @@ section.text-container p{
   text-align: justify;
   line-height: 32px;
   margin-top: 0;
+}
+
+@media only screen and (max-width:450px){
+
+  section.sessao{
+    align-items: center;
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+
+  section.sessao h1{
+    margin-top: 3rem;
+  }
+  section.sessao aside.container-img{
+    margin-left: 0;
+  }
+
+  section.text-container{
+    width: 100%;
+  }
 }

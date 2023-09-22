@@ -168,3 +168,21 @@ main section.card button:hover{
   transform: scale(1.1);
   transition: 0.3s;
 }
+
+@media only screen and (max-width:900px){
+
+  main.cards{
+    flex-direction: column;
+    height: 100vh;
+    gap: 1.5rem;
+  }
+
+  main.cards section.card{
+    margin-left: -8px;
+    width: 400px;
+  }
+
+  main.cards section.card:first-child{
+    margin-top: 3rem;
+  }
+}
